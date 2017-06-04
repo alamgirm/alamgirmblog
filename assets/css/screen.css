@@ -97,7 +97,7 @@ input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 button::-moz-focus-inner,
 input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
-table { border-collapse: collapse; border-spacing: 0; border: solid gray 1px;}
+table { border-collapse: collapse; border-spacing: 0;}
 
 
 /* ==========================================================================
@@ -362,8 +362,8 @@ pre {
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
-    border-radius: 3px;
+    background-color:#2b2b2b;
+    border-radius: 10px;
 }
 
 pre code, pre tt {
@@ -398,8 +398,10 @@ table {
     width: 100%;
     max-width: 100%;
    /* background-color: transparent; */
-    background-color: #555;
-    border-radius: 5px;
+    background-color: #2b2b2b; 
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
     text-shadow: none;
 }
 
@@ -412,7 +414,7 @@ table td {
     border-top: #EFEFEF 1px solid;
 }
 
-table th { color: #000; }
+table th { color: #888; }
 
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
@@ -430,12 +432,26 @@ table table table { background-color: #FFF; }
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
    /* background-color: #F6F6F6; */
+   color:#049DCE;
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
    /* background-color: #F6F6F6; */
+   color:#049DCE;
 }
+table tbody > tr:nth-child(even) > td,
+table tbody > tr:nth-child(even) > th {
+   /* background-color: #F6F6F6; */
+  color:#50B600;
+}
+
+table.plain tbody > tr:nth-child(even) > td,
+table.plain tbody > tr:nth-child(even) > th {
+   /* background-color: #F6F6F6; */
+  color:#50B600;
+}
+
 
 iframe, .fluid-width-video-wrapper {
     display: block;
