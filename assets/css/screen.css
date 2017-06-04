@@ -97,7 +97,7 @@ input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 button::-moz-focus-inner,
 input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
-table { border-collapse: collapse; border-spacing: 0; }
+table { border-collapse: collapse; border-spacing: 0; border: solid gray 1px;}
 
 
 /* ==========================================================================
@@ -397,7 +397,10 @@ table {
     margin: 1.75em 0;
     width: 100%;
     max-width: 100%;
-    background-color: transparent;
+   /* background-color: transparent; */
+    background-color: #555;
+    border-radius: 5px;
+    text-shadow: none;
 }
 
 table th,
@@ -431,7 +434,7 @@ table tbody > tr:nth-child(odd) > th {
 
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
-    background: transparent;
+    background-color: #F6F6F6;
 }
 
 iframe, .fluid-width-video-wrapper {
