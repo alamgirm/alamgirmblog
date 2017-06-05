@@ -19,10 +19,10 @@ nickname: alamgir
 bio: 'A human being with passion for science, technology, music and history.'
 location: 'Ontario, Canada'
 url: 'https://alamgirm.github.io/'
-image: 'assets/images/casper.png'
+image: 'assets/images/alamgir.jpg'
 
 short_url: 'https://alamgirm.github.io'
-google_analytics: UA-69281367-1
+google_analytics: UA-450244-4
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
