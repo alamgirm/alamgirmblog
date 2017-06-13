@@ -1126,6 +1126,26 @@ body:not(.post-template) .post-title {
     transform: translateX(-50%);
 }
 
+/* left aligned image */
+.post-excerpt img.leftimg {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    padding:  0;
+	float:left;
+	margin-right:10px;
+}
+
+/* right aligned image */
+.post-excerpt img.rightimg {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    padding:  0;
+	float:right;
+	margin-left:10px;
+}
+
 .footnotes {
     font-style: italic;
     font-size: 1.3rem;

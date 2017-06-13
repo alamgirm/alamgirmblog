@@ -1,17 +1,15 @@
 ---
 layout: post
-cover: 'assets/images/cover7.jpg'
+cover: 'assets/images/cover/cover6.jpg'
 title: Designing a simple microprocessor
 date:   2017-06-03 23:18:00
-tags: microprocessor embedded
+tags: MPU CPU embedded
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/logo/logo2.png'
 ---
-A microprocessor is physicaly a semiconductor chip with lots of pins to connect to other chips but what makes it special is that it can execute certain instructions. Here execution means that when certain electrical signals are presented at the inputs of the microprocessor, is produces some appropriate signals at its output pins. How does a microprocessor do that, or how can we design our own microprocessor to understand the inner working? This posts discusses how to do just that. While doing so, we will also design an instruction set for the microprocessor, and demonstrate how programs are written, and then made to get executed by the processor.
- 
-![Sample MPU](/assets/images/2017/17_06_03_intel8086.png "Intel 8086 MPU chip.") 
+A microprocessor is physicaly a semiconductor chip with lots of pins to connect to other chips but what makes it special is that it can execute certain instructions. Here execution means that when certain electrical signals are presented at the inputs of the microprocessor, is produces some appropriate signals at its output pins. How does a microprocessor do that, or how can we design our own microprocessor to understand the inner working?  <img src="/assets/images/2017/17_06_03_intel8086.png"  alt="Intel 8086 MPU chip. Z80" class="rightimg" />This posts discusses how to do just that. While doing so, we will also design an instruction set for the microprocessor, and demonstrate how programs are written, and then made to get executed by the processor.
 
 <!--more-->
 
