@@ -15,14 +15,14 @@ Arduino is fun and easy, and it gives the best introducton to AVR processors. Ho
 <!--more-->
 
 ###AVR dev-board
-An alternative to Arduino board is to use a development board. Retailer websites like <a href="http://aliexpress.com">Aliexpress</a> have good ranges of development boards with Amtel processors. In this post, I have used the board found <a href="https://www.aliexpress.com/item/1PCS-DC-5V-ATmega128-AVR-Core-Development-Board-Minimum-System-Module-ISP-JTAG/32745789402.html?spm=a2g0s.9042311.0.0.pGzCQ2">here</a>. The board uses an ATMega128 chip, has both JTAG and ISP connectors, could be powered by external power supply or from the JTAG. There is an on-board toggle switch to change power supply source. the As an addedd bonus the board has two LEDs connected to bits 0 and 1 of port A. This is quite useful for testing the board. If desired the LEDs can be disconnected by taking the jumper (next to LEDs) off.
+An alternative to Arduino board is to use a development board. Retailer websites like <a href="http://aliexpress.com">Aliexpress</a> have good ranges of development boards with Atmel processors. In this post, I have used the board found <a href="https://www.aliexpress.com/item/1PCS-DC-5V-ATmega128-AVR-Core-Development-Board-Minimum-System-Module-ISP-JTAG/32745789402.html?spm=a2g0s.9042311.0.0.pGzCQ2">here</a>. The board uses an ATMega128 chip, has both JTAG and ISP connectors, could be powered by external power supply or from the JTAG. There is an on-board toggle switch to change power supply source. the As an addedd bonus the board has two LEDs connected to bits 0 and 1 of port A. This is quite useful for testing the board. If desired the LEDs can be disconnected by taking the jumper (next to LEDs) off.
  
 ###Programmer device
 You might know that the Arduino IDE uploads program (compiled sketches) to an Ardiuno board using serial port (emulated over the USB). Under the hood there is also a small program, already put into the flash memory of the board during manufacturing, handles the receiving of program code from Arduino IDE and writes onto the flash memory. That piece of code is often called Arduino bootloader (not in tradional meaning of booting off course). The actuall uploading of program is handled by a software tool called `avrdude`. It is possible to use `avrdude` to manually upload program as long as the `MCU` has the bootlaoder installed. For the dev-board I am using, there is no bootloader, so we need either a JTAG or ICE hardware tool. Such tools don't need any helper other than the MCU itself. For the porpose of this post, I used a JTAG programmer tool. The JTAG programmer/debugger I used is bought from <a href="https://www.aliexpress.com/item/Free-shipping-AVR-USB-Emulator-debugger-programmer-JTAG-ICE-for-Atmel/623898152.html?spm=a2g0s.9042311.0.0.vzqf3c">aliexpress</a>. 
 <img src="/assets/images/2017/2017_08_09_JTAG_programmer.png"  alt="JTAG debugger programmer" />
 
 ###Programming setup  
-I'll write a simple test program in C language to check the dev-board. The best way of doing this (for programmers with deskop programming background) is to use the IDE provided by Amtel. For this post I used AVR Studio version 4.18. Though the latest version is 7, for beginners to keep things under control version 4 is just adequate.
+I'll write a simple test program in C language to check the dev-board. The best way of doing this (for programmers with deskop programming background) is to use the IDE provided by Atmel. For this post I used AVR Studio version 4.18. Though the latest version is 7, for beginners to keep things under control version 4 is just adequate.
 
 So, if you are following to do the same, download and install AVR Studio (it only runs on Windows). The installer also installs the USB driver software required to use the JTAG programmer.
 
@@ -78,4 +78,4 @@ A short clip showing the LEDs <a href="/assets/images/2017/2017_08_09_LED_Blinki
 
 - The <a href="https://www.aliexpress.com/item/1PCS-DC-5V-ATmega128-AVR-Core-Development-Board-Minimum-System-Module-ISP-JTAG/32745789402.html?spm=a2g0s.9042311.0.0.pGzCQ2">development board</a>. 
 - JTAG <a href="https://www.aliexpress.com/item/Free-shipping-AVR-USB-Emulator-debugger-programmer-JTAG-ICE-for-Atmel/623898152.html?spm=a2g0s.9042311.0.0.vzqf3c">debugger/programmer</a>.
-- Amtel <a href="http://www.atmel.com/tools/studioarchive.aspx">AVR Studio</a>. Scroll down for 4.18.
+- Atmel <a href="http://www.atmel.com/tools/studioarchive.aspx">AVR Studio</a>. Scroll down for 4.18.
