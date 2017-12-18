@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Barebone AVR Programming - LED Blinker' 
 date:   2017-08-09 20:18:00
-tags: AVR barebone Atmel
+tags: [Atmel AVR, Barebone Programming]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
 
 <img src="/assets/images/2017/2017_08_09_AVR_board.png"  alt="AVR Board" class="leftimg" />

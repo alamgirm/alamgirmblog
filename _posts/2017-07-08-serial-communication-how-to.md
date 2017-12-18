@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Serial Communications- How to' 
 date:   2017-07-08 13:18:00
-tags: Serial Communication RS232
+tags: [Serial Communication,  RS232]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
 <img src="/assets/images/2017/2017_07_08_RS232.png"  alt="RS232" class="leftimg" /> Digital systems need to communicate, even devices within a single system need to communicate with each other. In hardware, this means exachanges of digital signals between two parties. Since data are represented as binary numbers in a digital system, transferring of a binary number can happen in two manners: all the bits in one go (in parallel) or one bit at a time (in serial). This gives rise to design of two types of communication system: parallel and serial. The first thing to note is parallel communication needs more wires but supposedly transfer data in relatively faster manner. In contrast, serial communication can work with fewer wires, but would take longer to transfer the same amount of data. From this, it might look that parallel communication is 'better' than serial one, but in reality this is hardly the case.
 

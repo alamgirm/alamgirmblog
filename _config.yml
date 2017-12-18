@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 # Website info
 name: "Alamgir's Blog"
-description: "Embedded programming, Arduino, Raspberry Pi and other IoT."
+description: "Data Science, Machine Learning, Programming, Visualizations, Arduino, Raspberry Pi and other IoT."
 
 # Author's info
 author: alamgir
@@ -23,9 +23,9 @@ image: 'assets/images/alamgir.jpg'
 
 short_url: 'https://alamgirm.github.io'
 google_analytics: UA-450244-4
-disqus: username
+disqus: True
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: '/'
 
 # Permalinks
 permalink: /:title

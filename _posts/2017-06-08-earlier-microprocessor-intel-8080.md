@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Earliest Microprocessor: Intel 8080' 
 date:   2017-06-08 01:18:00
-tags: MPU CPU intel 8080
+tags: [MPU, CPU, Intel 8080]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
 The history of what we know as microprocessor (MPU) began with Intel Corporation's 4004 chip, which they built to replace hardwired logic in simple applications. It was a 4-bit processor with very little programming capability which they improved in later 4040 processor. <img src="/assets/images/2017/17_06_08_Intel_8080.png" alt="Intel 8080" class="leftimg" /> Intel followed the development with 8008, and then 8080 both 8-bit processors with better programming support. In fact 8080 was used in a wide range of applications, including the design of few personal computers (PC), and industrial robots. It is the first processor that revolutionized the industry and dictated the future of microprocessors.  Intel 8080 still required extra chips, such as memory, bus controller, clock generator etc to work as a system. This was later improved upon in 8085 that was what we now call system on a chip (SoC)- a chip with built-in everything that requires very little extra to work as a system.
 

@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: Understanding Program Flow and Interrupts
 date:   2017-06-05 17:18:00
-tags: mcu interrupt
+tags: [MCU, Interrupt]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo2.png'
+logo: 'assets/images/ghost.png'
 ---
 Once we understand how a microprocessor works, and how programs are written and get executed by a microprocessor, it is time to dig deeper and learn in detail on how the control in a program flows between instruction to instruction. This posts talks about the flow or path of execution in a program, and how and when the microprocessor could break that flow. In particular, we'll learn about interrupts- a very useful mechanism to allow priority and importance in program execution. 
 

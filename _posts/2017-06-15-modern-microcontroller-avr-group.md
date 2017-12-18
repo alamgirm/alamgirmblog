@@ -3,13 +3,13 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Modern microcontroller: AVR series' 
 date:   2017-06-13 06:18:00
-tags: MCU AVR Amtel Arduino
+tags: [MCU, Atmel AVR, Arduino]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
-The story of AVR familiies of microcontrollers (MCU), that power popular Arduino development boards began with two Norwegian students who designed a microcontroller as academic project. It was based on modified Harvard achitecture and RISC instructions set. The design later bought up by Amtel, and the two original designers continued to work on and improve. <img src="/assets/images/2017/17_06_13_Amtel_AVR_logo.png"  alt="AVR logo" class="rightimg" /> Amtel, understandly targetting the market of Intel 8051 releases the first AVR AT90S8515, a 8-bit MCU with same pin out as Intel 8051. Though originally 8-bit today AVR has 32-bit MCU, and offers multiple families of MCU with varied degree of capabilities and functionalities. There are however few common features: for example use of on-chip flash memory for program storage, EEPROM bits for CPU configuration flags etc. Within each family there are multiple MCUs available.
+The story of AVR familiies of microcontrollers (MCU), that power popular Arduino development boards began with two Norwegian students who designed a microcontroller as academic project. It was based on modified Harvard achitecture and RISC instructions set. The design later bought up by Atmel, and the two original designers continued to work on and improve. <img src="/assets/images/2017/17_06_13_Atmel_AVR_logo.png"  alt="AVR logo" class="rightimg" /> Atmel, understandly targetting the market of Intel 8051 releases the first AVR AT90S8515, a 8-bit MCU with same pin out as Intel 8051. Though originally 8-bit today AVR has 32-bit MCU, and offers multiple families of MCU with varied degree of capabilities and functionalities. There are however few common features: for example use of on-chip flash memory for program storage, EEPROM bits for CPU configuration flags etc. Within each family there are multiple MCUs available.
  
 <!--more-->
 
@@ -46,4 +46,4 @@ Below are some specifuc models that are used often. The table is not complete, a
 
 ###More details
 
-More details about the features of various families can be found in <a href="http://www.atmel.com/products/microcontrollers/avr/default.aspx">Amtel's web</a> site. Considering both the price and features, ATMega family is probably the best choice among IoT and hooby users. Choices and details about ATMega family chips are available <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx"> here.</a>
+More details about the features of various families can be found in <a href="http://www.atmel.com/products/microcontrollers/avr/default.aspx">Atmel's web</a> site. Considering both the price and features, ATMega family is probably the best choice among IoT and hooby users. Choices and details about ATMega family chips are available <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx"> here.</a>

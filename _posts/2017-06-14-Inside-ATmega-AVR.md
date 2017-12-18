@@ -3,13 +3,13 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Inside ATMega AVR microcontroller' 
 date:   2017-06-14 12:18:00
-tags: MCU AVR Amtel Arduino
+tags: [MCU, Atmel AVR, Arduino]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
-<img src="/assets/images/2017/17_06_14_ATmega328P.jpg"  alt="Amtel ATmega328P" class="rightimg" />Amtel offers a wide variety of AVR MCU available in different series or families. MCU from these families differ in capabilities and funcionalities and sometimes in instructions available and architecture. However,  the design of AVR itself followes some common philosophy that could help us understand the internal architecture of such an MCU. In this post we talk about Amtel ATmega MCU which are available in different parts numbers, and with differnt amount of program memory.  
+<img src="/assets/images/2017/17_06_14_ATmega328P.jpg"  alt="Atmel ATmega328P" class="rightimg" />Atmel offers a wide variety of AVR MCU available in different series or families. MCU from these families differ in capabilities and funcionalities and sometimes in instructions available and architecture. However,  the design of AVR itself followes some common philosophy that could help us understand the internal architecture of such an MCU. In this post we talk about Atmel ATmega MCU which are available in different parts numbers, and with differnt amount of program memory.  
 
 <!--more-->
 
@@ -25,7 +25,7 @@ Looking at the block diagram of internal architecture of ATmega family one would
 - Data memory
 - CPU core (ALU, Program counter, general purpose registers etc)
 
-![Amtel ATmega](/assets/images/2017/17_06_14_Amtel_ATmega_arch.png "Amtel ATmega MPU.") 
+![Atmel ATmega](/assets/images/2017/17_06_14_Atmel_ATmega_arch.png "Atmel ATmega MPU.") 
 
 AVR is based on modidfied Harvard architecture, so it is expected the program and data memory space tos be seperate. In addition to that, AVR allows readonly access to any data residing in the program memory, but no writes are allowed by the program itself. In addition to the memories for data and programs, AVR also has few bits of EEPROM for storing CPU configuration parameters (we'll see later). When compared to a CPU like Intel 8080 or Zilog Z80, the ATmega has lots of other functionalities buil-it, to be justly called a microcontroller. Lets talk them in detail:
 
@@ -46,7 +46,7 @@ ATmega has in-built A/D (Analog to Digital) converter. Some models have D/A (Dig
 
 ####Timers/Counters
 ATmega has on chip timers/counters, and thre are two kinds. The first kind is a 8-bit synchronous where the clock signal is derived from the CPU clock. The second kinds allows connecting an external clock circtuit to trigger the timer/counter and works independent of the CPU clock. Each of the timer/counter available can operate in a multiple of modes depending on application needs.
-![Amtel ATmega](/assets/images/2017/17_06_14_Amtel_ATmega_arch2.png "Amtel ATmega MPU.") 
+![Atmel ATmega](/assets/images/2017/17_06_14_Atmel_ATmega_arch2.png "Atmel ATmega MPU.") 
 
 #####Other Features
 

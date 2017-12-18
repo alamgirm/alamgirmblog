@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Basics of block storage devices' 
 date:   2017-06-23 06:18:00
-tags: Block Storage HDD
+tags: [Block Storage, HDD]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
 <img src="/assets/images/2017/2017_06_hard_disk.png"  alt="Hard disk" class="leftimg" /> Today's mass storage devices include magnetic hard disk, solid state drive, and often flash drive. Though technologically quite different, all these storage classes have one thing in common: they are accessed in a bigger chunk of data unit, not by a byte. This unit of access is called block (sometimes also called page). The internal technology, organizational structure etc could be whatever but the storage device's adapter IDE/SATA/PATA/SCSI exposes the storage in a uniform manner to the operating system.  
  

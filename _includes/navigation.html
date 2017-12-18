@@ -6,9 +6,12 @@
     <ul>
         <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
         <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
-        <li class="nav-emb {% if page.url contains 'embedded' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Embedded">Embedded</a></li>
+        <li class="nav-emb {% if page.url contains 'data-science' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Data Science">Data Science</a></li>
+        <li class="nav-emb {% if page.url contains 'machine-learning' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Machine Learning">Machine Learning</a></li>
+        <li class="nav-emb {% if page.url contains 'programming' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Programming">Programming</a></li>
+        <li class="nav-emb {% if page.url contains 'visualization' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Visualization">Visualization</a></li>
         <li class="nav-ard {% if page.url contains 'arduino' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Arduino">Arduino</a></li>
-        <li class="nav-rasp {% if page.url contains 'raspberrypi' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/RaspberryPi">Raspberry Pi</a></li>
+        <li class="nav-rasp {% if page.url contains 'raspberrypi' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/Raspberry Pi">Raspberry Pi</a></li>
         <li class="nav-iot {% if page.url contains 'iot' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/IoT">IoT</a></li>
 	<li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/alamgir">Author</a></li>
     </ul>

@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: 'Earliest Microprocessor: Zilog Z80' 
 date:   2017-06-12 06:18:00
-tags: MPU CPU Zilog Z80
+tags: [MPU, CPU, Zilog Z80]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
 The CPU design team at Intel in the 70's was led by <a href="https://en.wikipedia.org/wiki/Federico_Faggin">Federico Faggin</a>. After resigning from Intel Federico formed the start-up company Zilog, for design, development and marketing of microprocessor. <img src="/assets/images/2017/17_06_12_Zilog_Z80.jpg"  alt="Zilog Z80" class="rightimg" /> Zilog Z80 was their first product to hit the market, aimed for embedded applications. Its direct competitor was Intel 8080, and in fact Zilog always highligheted in commercials about its superiority over 8080. Compared to Intel 8080 which required +12V, -5V and +5V, Z80 needed only one +5V supply, had simple clock, and supported more registers, instructions, addressing modes, and even non-maskable interrupts.   Z80 was a gigantic success that helped the company grew from just elevel to a thousand employees in just two years. Many other semiconductor companies around the world copied the design of Z80 and sold their chips. Famaous Atari computuers, the first one to have color display were built on Zilog Z80.
 

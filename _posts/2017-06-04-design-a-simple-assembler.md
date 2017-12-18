@@ -3,11 +3,11 @@ layout: post
 cover: 'assets/images/cover/cover7.jpg'
 title: Designing a simple Assembler
 date:   2017-06-04 11:18:00
-tags: mcu assembler
+tags: [MCU, assembler]
 subclass: 'post tag-test tag-content'
 categories: 'alamgir'
 navigation: True
-logo: 'assets/images/logo/logo1.png'
+logo: 'assets/images/ghost.png'
 ---
 Following on the design of a simple microprocessor in the <a href="/design-a-simple-microprocessor.html ">last post</a>, this post talks about writing a simple assembler for that processor. The main aim of attempting to write an assembler is to learn how the assembly to machine code conversion works. 
 
